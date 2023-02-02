@@ -41,7 +41,7 @@ jobs:
         environment_name: Dockerreact-env
         version_label: "ver-${{ github.sha }}"
         use_existing_version_if_available: true
-        wait_for_environment_recovery: 500
+        wait_for_environment_recovery: 1000
         region: us-west-2
         deployment_package: deploy.zip
 
